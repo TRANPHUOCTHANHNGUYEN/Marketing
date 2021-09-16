@@ -22,10 +22,10 @@ class EventTeam extends Component{
                 </div>
                 <Slider ref={c => (this.slider = c)} className="event_team_slider" {...settings}>
                     <EventTeamItem image="team1.jpg" name="John Deo" post="Wp Developer"/>
-                    <EventTeamItem image="team2.jpg" name="Jason Response" post="Graphic Design"/>
-                    <EventTeamItem image="team3.jpg" name="John Deo" post="Wp Developer"/>
+                    <EventTeamItem image="team2.jpg" name="Diane Verou" post="Graphic Design"/>
+                    <EventTeamItem image="team3.jpg" name="Chris Shea " post="Wp Developer"/>
                     <EventTeamItem image="team1.jpg" name="John Deo" post="Wp Developer"/>
-                    <EventTeamItem image="team2.jpg" name="John Deo" post="Wp Developer"/>
+                    <EventTeamItem image="team2.jpg" name="Diane Verou" post="Graphic Design"/>
                 </Slider>
             </div>
         </section>
