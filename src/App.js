@@ -46,7 +46,7 @@ class App extends Component {
     return (
       <Router>
         <Switch>
-          <ScrollToTopRoute exact={true} path={"/"} component={Home} />
+          <ScrollToTopRoute exact={true} path={"/"} component={HomeEvent} />
           <ScrollToTopRoute
             path="/Digital-marketing"
             component={DigitalMarketing}
